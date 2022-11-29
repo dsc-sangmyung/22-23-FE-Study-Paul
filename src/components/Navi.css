@@ -1,0 +1,19 @@
+.nav {
+  width: 336px;
+  height: 100%;
+  display: flex;
+  border-right-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  height: 108px;
+  display: flex;
+  align-items: center;
+  padding-left: 22px;
+}
+
+#nav-logo {
+  width: 108px;
+}
