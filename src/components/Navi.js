@@ -10,6 +10,13 @@ function navi() {
           <img id="nav-logo" alt='instagram-logo' src={require('../assets/Instagram_logo.png')} />
         </Link>
       </div>
+      <ul id="menu">
+        <li>
+          <Link to={"/"}>
+            홈
+          </Link>
+        </li>
+      </ul>
     </div>
   )
 }
