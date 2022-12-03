@@ -27,15 +27,82 @@
   display: block;
   align-items: center;
   list-style: none;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .nav-list li {
-  height: 100px;
+  height: 60px;
   display: flex;
   align-items: center;
 }
 
-.blank {
-  flex: 1;
+.home-button {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#home-icon {
+  font-size: 20px;
+  margin-right: 16px;
+}
+
+.search-button {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#search-icon {
+  font-size: 24px;
+  margin-right: 16px;
+}
+
+.compass-button {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#compass-icon {
+  font-size: 24px;
+  margin-right: 16px;
+}
+
+.message-button {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#message-icon {
+  font-size: 24px;
+  margin-right: 16px;
+}
+
+.heart-button {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#heart-icon {
+  font-size: 24px;
+  margin-right: 16px;
+}
+
+.nav-list li a{
+  align-items: center;
+  color: black;
+  text-decoration: none;
 }
