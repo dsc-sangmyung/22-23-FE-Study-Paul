@@ -7,6 +7,7 @@ import { FiSearch } from 'react-icons/fi'
 import { AiOutlineCompass } from 'react-icons/ai'
 import { TbSend } from 'react-icons/tb'
 import { AiOutlineHeart } from 'react-icons/ai'
+import { FiPlusSquare } from 'react-icons/fi'
 
 
 function navi() {
@@ -53,10 +54,10 @@ function navi() {
             </Link>
           </li>
         </div>
-        <div className="home-button">
+        <div className="make-button">
           <li>
             <Link to={"/"}>
-              <GrHomeRounded id="home-icon"/>만들기
+              <FiPlusSquare id="make-icon"/>만들기
             </Link>
           </li>
         </div>
