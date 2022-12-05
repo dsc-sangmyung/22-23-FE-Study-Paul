@@ -62,6 +62,7 @@ function navi() {
           </li>
         </div>
       </div>
+      <div className="blank"></div>
     </div>
   )
 }

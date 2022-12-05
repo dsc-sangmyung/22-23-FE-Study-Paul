@@ -1,6 +1,6 @@
 .nav {
   width: 336px;
-  height: 100%;
+  height: 100vh;
   display: block;
 
   border-right-style: solid;
@@ -31,90 +31,132 @@
 }
 
 .nav-list li {
-  height: 60px;
+  height: 64px;
   display: flex;
   align-items: center;
 }
 
 .home-button {
-  border-color: black;
-  border-style: solid;
-  border-width: 1px;
-  margin-left: 20px;
+  margin-left: 10px;
   margin-right: 20px;
+}
+
+.home-button a {
+  padding: 16px 240px 16px 10px;
+  border-radius: 100px;
+}
+
+.home-button a:hover {
+  background-color: rgba(250, 250, 250, 1);
 }
 
 #home-icon {
   font-size: 20px;
   margin-right: 16px;
+  vertical-align: sub;
 }
 
 .search-button {
-  border-color: black;
-  border-style: solid;
-  border-width: 1px;
-  margin-left: 20px;
+  margin-left: 10px;
   margin-right: 20px;
+}
+
+.search-button a {
+  padding: 12px 224px 12px 10px;
+  border-radius: 100px;
+}
+
+.search-button a:hover {
+  background-color: rgba(250, 250, 250, 1);
 }
 
 #search-icon {
   font-size: 24px;
   margin-right: 16px;
+  vertical-align: sub;
 }
 
 .compass-button {
-  border-color: black;
-  border-style: solid;
-  border-width: 1px;
-  margin-left: 20px;
+  margin-left: 10px;
   margin-right: 20px;
+}
+
+.compass-button a {
+  padding: 12px 208px 12px 10px;
+  border-radius: 100px;
+}
+
+.compass-button a:hover {
+  background-color: rgba(250, 250, 250, 1);
 }
 
 #compass-icon {
   font-size: 24px;
   margin-right: 16px;
+  vertical-align: sub;
 }
 
 .message-button {
-  border-color: black;
-  border-style: solid;
-  border-width: 1px;
-  margin-left: 20px;
+  margin-left: 10px;
   margin-right: 20px;
+}
+
+.message-button a {
+  padding: 12px 212px 12px 10px;
+  border-radius: 100px;
+}
+
+.message-button a:hover {
+  background-color: rgba(250, 250, 250, 1);
 }
 
 #message-icon {
   font-size: 24px;
   margin-right: 16px;
+  vertical-align: sub;
 }
 
 .heart-button {
-  border-color: black;
-  border-style: solid;
-  border-width: 1px;
-  margin-left: 20px;
+  margin-left: 10px;
   margin-right: 20px;
+}
+
+.heart-button a {
+  padding: 12px 228px 12px 10px;
+  border-radius: 100px;
+}
+
+.heart-button a:hover {
+  background-color: rgba(250, 250, 250, 1);
 }
 
 #heart-icon {
   font-size: 24px;
   margin-right: 16px;
+  vertical-align: sub;
 }
 
 .make-button {
-  border-color: black;
-  border-style: solid;
-  border-width: 1px;
-  margin-left: 20px;
+  margin-left: 10px;
   margin-right: 20px;
+}
+
+.make-button a {
+  padding: 12px 212px 12px 10px;
+  border-radius: 100px;
+}
+
+.make-button a:hover {
+  background-color: rgba(250, 250, 250, 1);
 }
 
 #make-icon {
   font-size: 24px;
   margin-right: 16px;
+  vertical-align: sub;
 }
 
-.nav-list li a{
+.nav-list li a {
   align-items: center;
   color: black;
   text-decoration: none;
