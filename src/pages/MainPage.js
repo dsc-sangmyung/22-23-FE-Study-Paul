@@ -12,7 +12,7 @@ function mainpage() {
       </div>
       <div className="content-area">
         <div className="post-card">
-          <PostCard />
+          <PostCard id="1intheworld_hs.ryu__" location="Korea"/>
         </div>
       </div>
     </div>

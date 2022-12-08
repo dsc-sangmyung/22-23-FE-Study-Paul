@@ -8,3 +8,42 @@
   border-width: 1px;
   border-radius: 8px;
 }
+
+.post-head {
+  width: 100%;
+  height: 64px;
+
+  display: flex;
+  align-items: center;
+
+  border: 1px;
+  border-color: rgba(219, 219, 219, 1);
+  border-bottom-style: solid;
+}
+
+#post-head-profile {
+  width: 32px;
+  height: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+  border-radius: 100%;
+  background-color: black;
+}
+
+#post-head-info {
+  display: flex;
+  flex-direction: column;
+}
+
+#post-head-id {
+  font-size: 14px;
+  font-weight: 600;
+  color: #262626;
+}
+
+#post-head-location {
+  padding-top: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #262626;
+}
