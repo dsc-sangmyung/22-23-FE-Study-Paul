@@ -13,6 +13,7 @@ function mainpage() {
       <div className="content-area">
         <div className="post-card">
           <PostCard id="1intheworld_hs.ryu__" location="Korea"/>
+          <PostCard id="1intheworld_hs.ryu__" location="Korea"/>
         </div>
       </div>
     </div>
