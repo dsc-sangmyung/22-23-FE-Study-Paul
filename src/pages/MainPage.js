@@ -6,10 +6,14 @@ import PostCard from '../components/PostCard'
 
 function mainpage() {
   return (
-    <div>
-      <Navi />
-      <div>
-        <PostCard />
+    <div className="main-page">
+      <div className="navi-bar">
+        <Navi/>
+      </div>
+      <div className="content-area">
+        <div className="post-card">
+          <PostCard />
+        </div>
       </div>
     </div>
   )
