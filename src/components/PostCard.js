@@ -13,6 +13,12 @@ function PostCard(props) {
           <div id="post-head-location">{props.location}</div>
         </div>
       </div>
+      <div className="post-body">
+        <div id="post-body-photo">{props.photo}</div>
+      </div>
+      <div className="post-bottom">
+        
+      </div>
     </div>
   )
 }
