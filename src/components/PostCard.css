@@ -58,3 +58,49 @@
   border-color: rgba(219, 219, 219, 1);
   border-bottom-style: solid;
 }
+
+.post-bottom {
+  display: flex;
+  align-items: center;
+}
+
+#heart-button {
+  font-size: 26px;
+  padding: 8px;
+  color: #262626;
+}
+
+#heart-button:hover {
+  color: rgba(170, 170, 170, 1);
+}
+
+#chat-button {
+  font-size: 24px;
+  rotate: deg;
+  padding: 8px;
+  color: #262626;
+}
+
+#chat-button:hover {
+  color: rgba(170, 170, 170, 1);
+}
+
+#send-button {
+  font-size: 22px;
+  padding: 8px;
+  color: #262626;
+}
+
+#send-button:hover {
+  color: rgba(170, 170, 170, 1);
+}
+
+#bookmark-button {
+  font-size: 24px;
+  padding: 8px;
+  color: #262626;
+}
+
+#bookmark-button:hover {
+  color: rgba(170, 170, 170, 1);
+}

@@ -2,6 +2,10 @@ import React from "react";
 import './PostCard.css'
 
 import { Link } from "react-router-dom";
+import { AiOutlineHeart } from 'react-icons/ai'
+import { IoChatbubbleOutline } from 'react-icons/io5'
+import { FiSend } from 'react-icons/fi'
+import { BiBookmark } from 'react-icons/bi'
 
 function PostCard(props) {
   return (
@@ -17,7 +21,10 @@ function PostCard(props) {
         <div id="post-body-photo">{props.photo}</div>
       </div>
       <div className="post-bottom">
-        
+        <AiOutlineHeart id="heart-button"/>
+        <IoChatbubbleOutline id="chat-button"/>
+        <FiSend id="send-button"/>
+        <BiBookmark id="bookmark-button"/>
       </div>
     </div>
   )
