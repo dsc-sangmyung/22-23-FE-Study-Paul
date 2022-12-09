@@ -24,6 +24,7 @@ function PostCard(props) {
         <AiOutlineHeart id="heart-button"/>
         <IoChatbubbleOutline id="chat-button"/>
         <FiSend id="send-button"/>
+        <div id="blank"/>
         <BiBookmark id="bookmark-button"/>
       </div>
     </div>
