@@ -6,6 +6,7 @@ import { AiOutlineHeart } from 'react-icons/ai'
 import { IoChatbubbleOutline } from 'react-icons/io5'
 import { FiSend } from 'react-icons/fi'
 import { BiBookmark } from 'react-icons/bi'
+import { HiOutlineEmojiHappy } from 'react-icons/hi'
 
 function PostCard(props) {
   return (
@@ -13,7 +14,7 @@ function PostCard(props) {
       <div className="post-head">
         <div id="post-head-profile">{props.profile}</div>
         <div id="post-head-info">
-          <div id="post-head-id">{props.id}</div>
+          <div id="post-id">{props.id}</div>
           <div id="post-head-location">{props.location}</div>
         </div>
       </div>
@@ -35,7 +36,20 @@ function PostCard(props) {
         </div>
       </div>
       <div className="post-bottom-text">
-        <div id="post-head-id">{props.id}</div>
+        <div id="post-id">{props.id}</div>
+      </div>
+      <div className="post-bottom-comment">
+        <div id="post-bottom-comment">댓글 {props.count_comment}개 모두 보기</div>
+      </div>
+      <div className="post-bottom-date">
+        <div id="post-bottom-date">{props.date}일 전</div>
+      </div>
+      <div className="post-reaction">
+        <HiOutlineEmojiHappy id="reaction" />
+        <input type="text" id="reaction-text" placeholder="댓글 달기..." />
+        <div id="post-button">
+          게시
+        </div>
       </div>
     </div>
   )
