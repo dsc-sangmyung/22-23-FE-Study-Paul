@@ -20,12 +20,22 @@ function PostCard(props) {
       <div className="post-body">
         <div id="post-body-photo">{props.photo}</div>
       </div>
-      <div className="post-bottom">
+      <div className="post-bottom-icon">
         <AiOutlineHeart id="heart-button"/>
         <IoChatbubbleOutline id="chat-button"/>
         <FiSend id="send-button"/>
         <div id="blank"/>
         <BiBookmark id="bookmark-button"/>
+      </div>
+      <div className="post-bottom-like">
+        <div className="post-bottom-like-text">
+          <Link to={"/"}>
+            좋아요  
+          </Link>
+        </div>
+      </div>
+      <div className="post-bottom-text">
+        <div id="post-head-id">{props.id}</div>
       </div>
     </div>
   )
