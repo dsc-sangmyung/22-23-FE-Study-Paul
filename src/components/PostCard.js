@@ -1,7 +1,8 @@
 import React from "react";
 import './PostCard.css'
 
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
+import { HiOutlineDotsHorizontal } from "react-icons/hi"
 import { AiOutlineHeart } from 'react-icons/ai'
 import { IoChatbubbleOutline } from 'react-icons/io5'
 import { FiSend } from 'react-icons/fi'
@@ -14,9 +15,13 @@ function PostCard(props) {
       <div className="post-head">
         <div id="post-head-profile">{props.profile}</div>
         <div id="post-head-info">
-          <div id="post-id">{props.id}</div>
-          <div id="post-head-location">{props.location}</div>
+          <div id="post-id-location">
+            <div id="post-id">{props.id}</div>
+            <div id="post-head-location">{props.location}</div>
+          </div>
         </div>
+        <div id="blank" />
+        <HiOutlineDotsHorizontal id="more-icon" />
       </div>
       <div className="post-body">
         <div id="post-body-photo">{props.photo}</div>
