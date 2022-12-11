@@ -1,5 +1,5 @@
 .main-page {
-  width: 100%;
+  width: calc(100% + 336px);
   height: 100%;
   display: flex;
   justify-content: center;
