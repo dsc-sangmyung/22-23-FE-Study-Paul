@@ -1,14 +1,26 @@
-.story-box {
-  width: 472px;
+.story-profile {
+  width: 75px;
   height: 120px;
 
-  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  border-color: rgba(219, 219, 219, 1);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 8px;
+#story-profile-pic {
+  width: 57px;
+  height: 57px;
+  background-color: black;
+  border-radius: 100%;
+}
 
-  margin-top: 24px;
-  margin-bottom: 12px;
+#story-id {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: 400;
 }

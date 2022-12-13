@@ -14,7 +14,12 @@ function mainpage() {
       <div className="content-area">
         <div className="main-contents">
           <div className="story-card">
-            <StoryCard />
+            <div className="story-box">
+              <div id="left-margin" />
+              <StoryCard id="1intheworld_hs.ryu__"/>
+              <StoryCard id="test"/>
+              <div id="right-margin" />
+            </div>
           </div>
           <div className="post-card">
             <PostCard id="1intheworld_hs.ryu__" location="Korea"/>
