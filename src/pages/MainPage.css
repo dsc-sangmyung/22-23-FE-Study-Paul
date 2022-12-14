@@ -37,3 +37,12 @@
 #right-margin {
   width: 10px;
 }
+
+.profile-area {
+  width: 320px;
+  height: 100%;
+  display: flex;
+
+  margin-top: 48px;
+  margin-left: 20px;
+}

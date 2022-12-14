@@ -27,6 +27,9 @@ function mainpage() {
             <PostCard id="1intheworld_hs.ryu__" location="Korea"/>
           </div>
         </div>
+        <div className="profile-area">
+          <MyProfile id="1intheworld_hs.ryu__" name="H.S.Ryu"/>
+        </div>
       </div>
     </div>
   )
