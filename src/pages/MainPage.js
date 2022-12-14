@@ -4,6 +4,7 @@ import './MainPage.css'
 import Navi from '../components/Navi'
 import PostCard from '../components/PostCard'
 import StoryCard from "../components/StoryCard"
+import MyProfile from "../components/MyProfile"
 
 function mainpage() {
   return (
