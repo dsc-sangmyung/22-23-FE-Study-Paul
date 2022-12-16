@@ -1,5 +1,6 @@
 import React from "react"
 import './MainPage.css'
+import { Link } from "react-router-dom"
 
 import Navi from '../components/Navi'
 import PostCard from '../components/PostCard'
@@ -39,6 +40,67 @@ function mainpage() {
           <ProfileList id="_dev.paul_" sub="회원님을 위한 추천"/>
           <ProfileList id="_dev.paul_" sub="회원님을 위한 추천"/>
           <ProfileList id="_dev.paul_" sub="회원님을 위한 추천"/>
+          <ProfileList id="_dev.paul_" sub="회원님을 위한 추천"/>
+          <div className="bottom-link1">
+            <div id="bottom-link-style">
+              <Link to={"/"}>
+                소개
+              </Link>
+            </div>
+            &#183;
+            <div id="bottom-link-style">
+              <Link to={"/"}>
+                도움말
+              </Link>
+            </div>
+            &#183;
+            <div id="bottom-link-style">
+              <Link to={"/"}>
+                홍보 센터
+              </Link>
+            </div>
+            &#183;
+            <div id="bottom-link-style">
+              <Link to={"/"}>
+                API
+              </Link>
+            </div>
+            &#183;
+            <div id="bottom-link-style">
+              <Link to={"/"}>
+                채용 정보
+              </Link>
+            </div>
+            &#183;
+            <div id="bottom-link-style">
+              <Link to={"/"}>
+                개인정보처리방침
+              </Link>
+            </div>
+            &#183;
+          </div>
+          <div className="bottom-link2">
+            <div id="bottom-link-style">
+              <Link to={"/"}>
+                약관
+              </Link>
+            </div>
+            &#183;
+            <div id="bottom-link-style">
+              <Link to={"/"}>
+                위치
+              </Link>
+            </div>
+            &#183;
+            <div id="bottom-link-style">
+              <Link to={"/"}>
+                언어
+              </Link>
+            </div>
+          </div>
+          <div className="copyright">
+            &#169; 2022 INSTAGRAM FROM META
+          </div>
         </div>
       </div>
     </div>
