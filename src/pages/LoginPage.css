@@ -3,8 +3,52 @@
   height: 100vh;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
   background-color: rgba(250, 250, 250, 1);
+}
+
+.sign-up {
+  width: 350px;
+  height: 70px;
+  margin-top: 12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(219, 219, 219, 1);
+  background-color: #FFFFFF;
+
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#sign-up-link {
+  margin-left: 4px;
+  color: #0095F6;
+  font-weight: 600;
+}
+
+#sign-up-link a {
+  text-decoration: none;
+  color: inherit
+}
+
+.download-guide {
+  width: 350px;
+  height: 70px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  font-size: 14px;
+  font-weight: 400;
 }
