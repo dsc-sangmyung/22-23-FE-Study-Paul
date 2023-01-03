@@ -1,0 +1,16 @@
+.box {
+  width: 350px;
+  height: 420px;
+  
+  display: flex;
+  justify-content: center;
+
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(219, 219, 219, 1);
+}
+
+#login-logo {
+  width: 175px;
+}
