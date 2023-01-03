@@ -71,3 +71,70 @@
   outline: none;
   border-color: rgba(168, 168, 168, 1)
 }
+
+.button-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-area a {
+  text-decoration: none;
+}
+
+.login-button {
+  width: 272px;
+  height: 32px;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(76, 181, 249, 1);
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.or {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#hr-tag {
+  width: 100px;
+  border-style: solid;
+  border-width: 1px;
+  color: rgba(219, 219, 219, 1);
+}
+
+#or-text {
+  font-size: 13px;
+  font-weight: 600;
+  color: #8E8E8E;
+  margin: 0px 20px 0px 20px; 
+}
+
+.facebook-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  color: rgba(56, 81, 133, 1);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.find-pw-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  color: rgba(56, 81, 133, 1);
+  font-size: 12px;
+  font-weight: 500;
+}
