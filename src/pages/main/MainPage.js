@@ -2,11 +2,11 @@ import React from "react"
 import './MainPage.css'
 import { Link } from "react-router-dom"
 
-import Navi from '../components/Navi'
-import PostCard from '../components/PostCard'
-import StoryCard from "../components/StoryCard"
-import MyProfile from "../components/MyProfile"
-import ProfileList from "../components/ProfileList"
+import Navi from '../../components/Navi'
+import PostCard from '../../components/PostCard'
+import StoryCard from "../../components/StoryCard"
+import MyProfile from "../../components/MyProfile"
+import ProfileList from "../../components/ProfileList"
 
 function mainpage() {
   return (

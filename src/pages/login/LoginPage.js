@@ -1,8 +1,8 @@
 import React from "react";
-import './LoginPage.css'
+import '../login/LoginPage.css'
 import { Link } from "react-router-dom";
 
-import LoginBox from "../components/LoginBox";
+import LoginBox from "../../components/LoginBox";
 
 function LoginPage() {
   return(

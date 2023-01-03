@@ -2,7 +2,7 @@ import React from "react";
 import './LoginBox.css'
 import { Link } from "react-router-dom";
 
-import MainPage from "../pages/MainPage"
+import MainPage from "../pages/main/MainPage"
 
 function LoginBox() {
   return (
@@ -17,10 +17,10 @@ function LoginBox() {
         <input id="pw-input-box" placeholder="비밀번호"/>
       </div>
       <div className="button-area">
-        <Link to={"/"}>
+        <Link to="mainpage">
           <div className="login-button">
             로그인
-          </div>      
+          </div>
         </Link>
       </div>
       <div className="or">
