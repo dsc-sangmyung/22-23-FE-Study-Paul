@@ -52,3 +52,27 @@
   font-size: 14px;
   font-weight: 400;
 }
+
+.link-meta {
+  display: flex;
+  flex-direction: row;
+
+  font-size: 12px;
+  font-weight: 400;
+  color: #8E8E8E;
+}
+
+.link-meta a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#link-meta-style {
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-top: 8px;
+}
+
+#link-meta-style:hover {
+  text-decoration: underline;
+}

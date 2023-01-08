@@ -23,6 +23,63 @@ function LoginPage() {
       <div className="download-guide">
         앱을 다운로드하세요.
       </div>
+      <div className="link-meta">
+        <div id="link-meta-style">
+          <Link to={"/"}>
+            Meta
+          </Link>
+        </div>
+        <div id="link-meta-style">
+          <Link to={"/"}>
+            소개
+          </Link>
+        </div>
+        <div id="link-meta-style">
+          <Link to={"/"}>
+            블로그
+          </Link>
+        </div>
+        <div id="link-meta-style">
+          <Link to={"/"}>
+            채용 정보
+          </Link>
+        </div>
+        <div id="link-meta-style">
+          <Link to={"/"}>
+            도움말
+          </Link>
+        </div>
+        <div id="link-meta-style">
+          <Link to={"/"}>
+            API
+          </Link>
+        </div>
+        <div id="link-meta-style">
+          <Link to={"/"}>
+            개인정보처리방침
+          </Link>
+        </div>
+        <div id="link-meta-style">
+          <Link to={"/"}>
+            약관
+          </Link>
+        </div>
+        <div id="link-meta-style">
+          <Link to={"/"}>
+            인기 계정
+          </Link>
+        </div>
+        <div id="link-meta-style">
+          <Link to={"/"}>
+            Instagram Lite
+          </Link>
+        </div>
+        <div id="link-meta-style">
+          <Link to={"/"}>
+            연락처 업로드 & 비사용자
+          </Link>
+        </div>
+      </div>
     </div>
   )
 }
